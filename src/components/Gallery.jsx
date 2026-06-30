@@ -2,9 +2,9 @@ import "../styles/gallery.css";
 
 function Gallery() {
     const images = [
-        "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?q=80&w=800&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=800&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800&auto=format&fit=crop"
+        "/gallery/1.jpeg",
+        "/gallery/2.jpeg",
+        "/gallery/3.jpeg"
     ];
 
     return (
@@ -20,7 +20,7 @@ function Gallery() {
                     <div className="gallery-item" key={index}>
                         <img
                             src={src}
-                            alt={`Galeri Warmindoku ${index + 1}`}
+                            alt={`Galeri Warmindoku Katineung ${index + 1}`}
                             loading="lazy"
                         />
                     </div>
