@@ -39,6 +39,48 @@
     margin-bottom: 2rem;
 }
 
+.vision-mission {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2.5rem 0;
+}
+
+.vision,
+.mission {
+    flex: 1;
+    min-width: 250px;
+    background: var(--bg-light);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--primary);
+}
+
+.vision h3,
+.mission h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--secondary);
+    font-size: 1.3rem;
+}
+
+.mission ul {
+    padding-left: 1.2rem;
+    margin: 0;
+    color: var(--text-dark);
+    opacity: 0.8;
+}
+
+.mission li {
+    margin-bottom: 0.5rem;
+}
+
+.why-us-title {
+    margin-bottom: 1.5rem;
+    color: var(--secondary);
+}
+
 .about-features {
     list-style: none;
     padding: 0;
@@ -75,6 +117,13 @@
     .about-container {
         background: #2A231F;
         border-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .vision,
+    .mission {
+        background: var(--bg-dark);
+        border-color: rgba(255, 255, 255, 0.05);
+        border-left-color: var(--primary);
     }
 
     .about-features li {

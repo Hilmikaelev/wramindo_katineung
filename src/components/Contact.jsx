@@ -24,7 +24,7 @@ function Contact() {
 
                     <div className="whatsapp-box">
                         <p>Mau pesan atau reservasi tempat?</p>
-                        <a href="https://wa.me/6281234567890?text=Halo%20Warmindo%20Nampol,%20saya%20mau%20pesan" target="_blank" rel="noopener noreferrer" className="btn-whatsapp">
+                        <a href="https://wa.me/6283182489324?text=Halo%20Warmindo%20Katineunks,%20saya%20mau%20pesan" target="_blank" rel="noopener noreferrer" className="btn-whatsapp">
                             💬 Hubungi WhatsApp Kami
                         </a>
                     </div>

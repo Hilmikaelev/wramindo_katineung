@@ -53,8 +53,16 @@ function Services() {
                     Sembunyikan
                 </button>
             )}
+
+            <div className="wa-order-cta" style={{ marginTop: '4rem', background: 'var(--primary)', padding: '3rem 2rem', borderRadius: '15px', color: 'white', textAlign: 'center', boxShadow: '0 10px 30px rgba(227, 53, 13, 0.3)' }}>
+                <h3 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Lapar? Langsung Pesan!</h3>
+                <p style={{ margin: '1rem 0', fontSize: '1.1rem', opacity: 0.9 }}>Tidak perlu aplikasi ojol! Anda bisa langsung memesan menu favorit kami dengan cepat dan mudah melalui WhatsApp.</p>
+                <a href="https://wa.me/6283182489324?text=Halo%20Warmindo%20Katineunks,%20saya%20mau%20pesan" target="_blank" rel="noopener noreferrer" className="btn-wa-order" style={{ display: 'inline-block', backgroundColor: '#25D366', color: 'white', padding: '15px 30px', borderRadius: '50px', textDecoration: 'none', fontWeight: 'bold', fontSize: '1.1rem', marginTop: '1.5rem', transition: 'transform 0.3s' }}>
+                    <span style={{ marginRight: '10px' }}>📱</span> Pesan via WhatsApp
+                </a>
+            </div>
         </section>
     )
 }
 
-export default Services 
+export default Services
